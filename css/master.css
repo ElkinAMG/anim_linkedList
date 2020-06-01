@@ -2,6 +2,7 @@
         padding: 0px;
         margin: 0px;
         font-family: "Courier New", Courier, monospace;
+        user-select: none;
 }
 
 body {
@@ -12,13 +13,18 @@ body {
         background: linear-gradient(to right,
                 #C4E0E5,
                 #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        overflow: hidden;
 }
 
 h1 {
         position: relative;
         text-align: center;
         color: #FFFFFF;
-        user-select: none;
+}
+
+#list {
+        margin-top: 10px;
+        position: absolute;
 }
 
 .action {
@@ -37,4 +43,7 @@ h1 {
 .t_box {
         margin: 10px;
         text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s, visibility 0.5s linear;
 }

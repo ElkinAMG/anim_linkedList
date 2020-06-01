@@ -1,0 +1,11 @@
+.node {
+        text-align: center;
+        font-size: 50px;
+        padding: 5px;
+        display: inline;
+        width: 2em;
+        overflow: hidden;
+        letter-spacing: -5px;
+        border-radius: 100px;
+        background-color: cyan;
+}

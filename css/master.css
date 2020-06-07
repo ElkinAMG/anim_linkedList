@@ -17,15 +17,19 @@ body {
 }
 
 h1 {
+        font-family: 'Lexend Tera', sans-serif;
         position: relative;
         text-align: center;
         color: #FFFFFF;
 }
 
 #list {
-        margin-top: 10px;
+        margin-top: 15px;
         position: absolute;
+        padding: 5px;
 }
+
+
 
 .action {
         width: 200px;
@@ -45,5 +49,5 @@ h1 {
         text-align: center;
         visibility: hidden;
         opacity: 0;
-        transition: opacity 1s, visibility 0.5s linear;
+        transition: opacity .4s, visibility 0.2s linear;
 }
